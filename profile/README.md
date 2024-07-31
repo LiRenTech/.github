@@ -4,4 +4,4 @@
 
 团队官方网站：https://liren.zeabur.app
 
-开发规范文档：https://docs.liren.zty012.de
+理刃科技文档：https://liren.zty012.de

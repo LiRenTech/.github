@@ -3,12 +3,18 @@ description: 报告一个 Bug 或者漏洞
 title: "Bug: "
 labels: ["bug"]
 body:
-  - type: markdown
+  - type: checkboxes
+    id: agreements
     attributes:
-      value: |
-        在报告 Bug 之前，请先阅读 [FAQ](https://liren.zty012.de/project-graph/v2/faq)
-
-        如果 FAQ 无法解决你的问题，请下载 [Nightly Build](https://github.com/LiRenTech/project-graph/releases/nightly)，这可能会解决你的问题。
+      label: 我已阅读并同意以下条款
+      description: 如果你没有认真阅读，你的 Issue 可能会被直接关闭！
+      options:
+        - label: 我已阅读 [FAQ](https://liren.zty012.de/project-graph/v2/faq)
+          required: true
+        - label: 我已尝试使用 [Nightly Build](https://github.com/LiRenTech/project-graph/releases/nightly)，并且没有解决我的问题
+          required: true
+        - label: 我已浏览 [Issues](https://github.com/LiRenTech/project-graph/issues) 并且没有找到类似的问题
+          required: true
   - type: textarea
     id: what-happened
     attributes:

@@ -1,6 +1,6 @@
 name: Bug 报告
 description: 报告一个 Bug 或者漏洞
-title: "Bug: "
+title: "🐛 ..."
 labels: ["bug"]
 body:
   - type: textarea

@@ -1,6 +1,6 @@
 name: 功能请求
 description: 对 Project Graph 的功能请求
-title: "Feature: "
+title: "✨ ..."
 labels: ["feature"]
 body:
   - type: textarea

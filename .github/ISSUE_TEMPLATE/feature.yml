@@ -1,8 +1,11 @@
 name: 功能请求
-description: 对 Project Graph 的功能请求
+description: 想要新的功能？对现有功能有疑问？请选择此模板。
 title: "✨ ..."
-labels: ["feature"]
+type: Feature
 body:
+  - type: markdown
+    attributes:
+      value: ⚠️ 注意！你想要的功能可能已经被别人提出过了，请在 Issues 中搜索相关内容，避免重复提交！
   - type: textarea
     id: feature-description
     attributes:
@@ -11,14 +14,6 @@ body:
       placeholder: 例如：希望支持项目依赖关系图的可视化展示。
     validations:
       required: true
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: 其他信息
-      description: 请提供其他有助于理解或实现该功能的信息。
-      placeholder: 例如：希望支持的格式可以是 Graphviz、PlantUML 等。
-    validations:
-      required: false
   - type: textarea
     id: attachments
     attributes:

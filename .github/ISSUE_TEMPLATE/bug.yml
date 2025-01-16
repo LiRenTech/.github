@@ -1,8 +1,11 @@
 name: Bug 报告
-description: 报告一个 Bug 或者漏洞
+description: 我发现了一个 Bug！
 title: "🐛 ..."
 labels: ["bug"]
 body:
+  - type: markdown
+    attributes:
+      value: ⚠️ 注意！如果你要反馈的问题是“macOS 系统下 CPU 占用高”，我们已经知道这个问题，并且正在跟进。请不要反馈重复的问题！
   - type: textarea
     id: what-happened
     attributes:
@@ -19,8 +22,8 @@ body:
       options:
         - Windows
         - macOS
-        - Debian based Linux (Debian, Ubuntu, Kali Linux, ...)
-        - Arch based Linux (Arch Linux, Manjaro, ...)
+        - Linux
+        - Android
       default: 0
     validations:
       required: true

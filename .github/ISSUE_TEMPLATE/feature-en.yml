@@ -1,0 +1,24 @@
+name: Feature Request
+description: Suggest an idea for this project
+title: "✨ ..."
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: ⚠️ Attention! Please search for existing feature requests before creating a new one.
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: What is the feature you want to see?
+      placeholder: eg. Add a new feature to support...
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Attachments
+      description: If you have any additional information or files, please attach them here.
+      placeholder: Drag and drop files here.
+    validations:
+      required: false

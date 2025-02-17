@@ -28,6 +28,14 @@ body:
     validations:
       required: true
   - type: textarea
+    id: version
+    attributes:
+      label: 软件的版本
+      description: 请提供软件的版本号信息
+      placeholder: x.x.x
+    validations:
+      required: true
+  - type: textarea
     id: attachments
     attributes:
       label: 附件
